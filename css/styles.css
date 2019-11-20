@@ -1,3 +1,7 @@
+.show-content-link:after {
+    content: '...';
+}
+
 .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
@@ -13,6 +17,11 @@
 
 .about-me p {
     font-size: 90%;
+}
+
+.media-image-1 {
+    width: 300px;
+    height: 300px;
 }
 
 /*
@@ -53,4 +62,8 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+ul .media {
+    flex-wrap: wrap;
 }
